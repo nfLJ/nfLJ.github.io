@@ -402,7 +402,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    961
+                    958
                 </div>
                 
 
@@ -419,8 +419,8 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener external nofollow noreferrer">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><ul>
+                <h2 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener external nofollow noreferrer">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><ul>
 <li><code>node_modules</code>是hexo插件安装的地方</li>
 <li><code>scaffolds</code>放一些通用的MarkDown模板</li>
 <li><code>source</code>就是编写的博客文件，格式为 .md</li>
@@ -429,12 +429,12 @@
 <li><code>_config.yml</code>是博客站点的配置文件</li>
 </ul>
 <p>详情可查看Hexo官方主页 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener external nofollow noreferrer">https://hexo.io/zh-cn/docs</a></p>
-<h1 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h1><h2 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h2><ul>
+<h2 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h2><h3 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h3><ul>
 <li>Node.js</li>
 <li>Git</li>
 <li>完成后使用<code>node -v</code>和<code>npm -v</code>检查是否安装成功</li>
 </ul>
-<h2 id="Hexo安装-1"><a href="#Hexo安装-1" class="headerlink" title="Hexo安装"></a>Hexo安装</h2><ul>
+<h3 id="Hexo安装-1"><a href="#Hexo安装-1" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><ul>
 <li>新建一个文件夹blog，命令行进入文件夹</li>
 </ul>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli</code></pre>
@@ -451,7 +451,7 @@
 <ul>
 <li>生成页面并启动服务</li>
 </ul>
-<h1 id="Hexo优化"><a href="#Hexo优化" class="headerlink" title="Hexo优化"></a>Hexo优化</h1><h2 id="1-主题"><a href="#1-主题" class="headerlink" title="1.主题"></a>1.主题</h2><ul>
+<h2 id="Hexo优化"><a href="#Hexo优化" class="headerlink" title="Hexo优化"></a>Hexo优化</h2><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><ul>
 <li>安装<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener external nofollow noreferrer">Metary主题</a>。cd到Blog目录下的Themes文件夹</li>
 </ul>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/blinkfox/hexo-theme-matery.git</code></pre>
@@ -462,7 +462,7 @@
 <span class="token comment" spellcheck="true">## Plugins: https://hexo.io/plugins/</span>
 <span class="token comment" spellcheck="true">## Themes: https://hexo.io/themes/</span>
 <span class="token key atrule">theme</span><span class="token punctuation">:</span> hexo<span class="token punctuation">-</span>theme<span class="token punctuation">-</span>matery</code></pre>
-<h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2.安装插件"></a>2.安装插件</h2><p>cd 到博客根目录下</p>
+<h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>cd 到博客根目录下</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-feed --save                 <span class="token comment" spellcheck="true">#RSS</span>
 <span class="token function">npm</span> <span class="token function">install</span> hexo-generator-search --save               <span class="token comment" spellcheck="true">#搜索</span>
 <span class="token function">npm</span> <span class="token function">install</span> hexo-generator-sitemap --save              <span class="token comment" spellcheck="true">#sitemap</span>
@@ -525,7 +525,7 @@
   <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
     <span class="token punctuation">-</span> <span class="token string">'exclude1.com'</span>
     <span class="token punctuation">-</span> <span class="token string">'exclude2.com'</span></code></pre>
-<h2 id="3-评论系统"><a href="#3-评论系统" class="headerlink" title="3.评论系统"></a>3.评论系统</h2><ul>
+<h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><ul>
 <li>在主题目录下的<code>_config.yml</code>中添加对应配置</li>
 </ul>
 <pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">gitalk</span><span class="token punctuation">:</span>
@@ -536,7 +536,7 @@
     <span class="token key atrule">clientId</span><span class="token punctuation">:</span> 生成
     <span class="token key atrule">clientSecret</span><span class="token punctuation">:</span> 生成 
   <span class="token key atrule">admin</span><span class="token punctuation">:</span> github名字</code></pre>
-<h2 id="4-链接优化"><a href="#4-链接优化" class="headerlink" title="4.链接优化"></a>4.链接优化</h2><p>如果文章名称是中文，那么Hexo默认生成文章的永久链接也会有中文，不仅不利于 SEO，而且复制文章地址的时候会变成一大串的编码。</p>
+<h3 id="链接优化"><a href="#链接优化" class="headerlink" title="链接优化"></a>链接优化</h3><p>如果文章名称是中文，那么Hexo默认生成文章的永久链接也会有中文，不仅不利于 SEO，而且复制文章地址的时候会变成一大串的编码。</p>
 <ul>
 <li>Metary主题作者推荐使用<a href="https://github.com/viko16/hexo-permalink-pinyin" target="_blank" rel="noopener external nofollow noreferrer">hexo-permalink-pinyin</a>。这个插件使得生成的文章永久链接变为中文拼音。</li>
 <li><a href="https://github.com/rozbo/hexo-abbrlink" target="_blank" rel="noopener external nofollow noreferrer">hexo-abbrlink</a>也可以生成非中文的链接。</li>
@@ -1074,7 +1074,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">961</span>&nbsp;字
+                class="white-color">958</span>&nbsp;字
             
             
             
