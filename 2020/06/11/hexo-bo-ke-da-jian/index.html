@@ -402,7 +402,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    958
+                    1.2k
                 </div>
                 
 
@@ -472,7 +472,8 @@
 <span class="token function">npm</span> <span class="token function">install</span> hexo-filter-nofollow --save                <span class="token comment" spellcheck="true">#nofollow</span>
 <span class="token function">npm</span> <span class="token function">install</span> hexo-filter-github-emojis --save           <span class="token comment" spellcheck="true">#emoji表情支持</span>
 <span class="token function">npm</span> <span class="token function">install</span> hexo-deployer-git --save                    <span class="token comment" spellcheck="true">#部署github</span>
-<span class="token function">npm</span> i hexo-permalink-pinyin --save                       <span class="token comment" spellcheck="true">#中文链接转拼音</span></code></pre>
+<span class="token function">npm</span> i hexo-permalink-pinyin --save                       <span class="token comment" spellcheck="true">#中文链接转拼音</span>
+<span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d                   <span class="token comment" spellcheck="true">#Live 2D</span></code></pre>
 <p><strong>1) RSS</strong></p>
 <ul>
 <li>在根目录下的<code>_config.yml</code>中添加对应配置</li>
@@ -525,6 +526,60 @@
   <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
     <span class="token punctuation">-</span> <span class="token string">'exclude1.com'</span>
     <span class="token punctuation">-</span> <span class="token string">'exclude2.com'</span></code></pre>
+<p><strong>7) Live 2D 模型</strong></p>
+<ul>
+<li>安装模块</li>
+</ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d</code></pre>
+<ul>
+<li>选择模型（共22款模型）</li>
+</ul>
+<pre><code>live2d-widget-model-chitose
+live2d-widget-model-epsilon2_1
+live2d-widget-model-gf
+live2d-widget-model-haru/01 (use npm install --save live2d-widget-model-haru)
+live2d-widget-model-haru/02 (use npm install --save live2d-widget-model-haru)
+live2d-widget-model-haruto
+live2d-widget-model-hibiki
+live2d-widget-model-hijiki
+live2d-widget-model-izumi
+live2d-widget-model-koharu
+live2d-widget-model-miku
+live2d-widget-model-ni-j
+live2d-widget-model-nico
+live2d-widget-model-nietzsche
+live2d-widget-model-nipsilon
+live2d-widget-model-nito
+live2d-widget-model-shizuku
+live2d-widget-model-tororo
+live2d-widget-model-tsumiki
+live2d-widget-model-unitychan
+live2d-widget-model-wanko
+live2d-widget-model-z16</code></pre><ul>
+<li>安装模型</li>
+</ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> 模型名字</code></pre>
+<ul>
+<li>在根目录或者主题下的<code>_config.yml</code>中添加对应配置（如下例子）</li>
+</ul>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">live2d</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">scriptFrom</span><span class="token punctuation">:</span> local
+  <span class="token key atrule">pluginRootPath</span><span class="token punctuation">:</span> live2dw/
+  <span class="token key atrule">pluginJsPath</span><span class="token punctuation">:</span> lib/
+  <span class="token key atrule">pluginModelPath</span><span class="token punctuation">:</span> assets/
+  <span class="token key atrule">tagMode</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">log</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">model</span><span class="token punctuation">:</span>
+    <span class="token key atrule">use</span><span class="token punctuation">:</span> live2d<span class="token punctuation">-</span>widget<span class="token punctuation">-</span>model<span class="token punctuation">-</span>wanko
+  <span class="token key atrule">display</span><span class="token punctuation">:</span>
+    <span class="token key atrule">position</span><span class="token punctuation">:</span> right
+    <span class="token key atrule">width</span><span class="token punctuation">:</span> <span class="token number">150</span>
+    <span class="token key atrule">height</span><span class="token punctuation">:</span> <span class="token number">300</span>
+  <span class="token key atrule">mobile</span><span class="token punctuation">:</span>
+    <span class="token key atrule">show</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">react</span><span class="token punctuation">:</span>
+    <span class="token key atrule">opacity</span><span class="token punctuation">:</span> <span class="token number">0.7</span></code></pre>
 <h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><ul>
 <li>在主题目录下的<code>_config.yml</code>中添加对应配置</li>
 </ul>
@@ -1310,7 +1365,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">958</span>&nbsp;字
+                class="white-color">1.2k</span>&nbsp;字
             
             
             
@@ -1436,6 +1491,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 
 </html>
