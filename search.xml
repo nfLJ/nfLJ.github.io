@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CentOS_7配置静态IP</title>
+      <link href="/2020/06/13/centos-7-pei-zhi-jing-tai-ip/"/>
+      <url>/2020/06/13/centos-7-pei-zhi-jing-tai-ip/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Centos-7-配置静态IP"><a href="#Centos-7-配置静态IP" class="headerlink" title="Centos 7 配置静态IP"></a>Centos 7 配置静态IP</h2><h3 id="1-打开VMware，进入虚拟网络编辑器"><a href="#1-打开VMware，进入虚拟网络编辑器" class="headerlink" title="1.打开VMware，进入虚拟网络编辑器"></a>1.打开VMware，进入虚拟网络编辑器</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png" alt=""></p><h3 id="2-进行如下配置"><a href="#2-进行如下配置" class="headerlink" title="2.进行如下配置"></a>2.进行如下配置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/2.png" alt=""></p><h3 id="3-进入虚拟机设置"><a href="#3-进入虚拟机设置" class="headerlink" title="3.进入虚拟机设置"></a>3.进入虚拟机设置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/3.png" alt=""></p><h3 id="4-进行如下设置"><a href="#4-进行如下设置" class="headerlink" title="4.进行如下设置"></a>4.进行如下设置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/4.png" alt=""></p><h3 id="5-进入CentOS7终端"><a href="#5-进入CentOS7终端" class="headerlink" title="5.进入CentOS7终端"></a>5.进入CentOS7终端</h3><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">su</span> root   //以管理员身份vim /etc/sysconfig/network-scripts/ifcfg-ens33<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/5.png" alt=""></p><h3 id="6-重新启动网络"><a href="#6-重新启动网络" class="headerlink" title="6.重新启动网络"></a>6.重新启动网络</h3><pre class="line-numbers language-bash"><code class="language-bash">systemctl restart network.service<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png" alt="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CentOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客搭建</title>
       <link href="/2020/06/11/hexo-bo-ke-da-jian/"/>
       <url>/2020/06/11/hexo-bo-ke-da-jian/</url>
