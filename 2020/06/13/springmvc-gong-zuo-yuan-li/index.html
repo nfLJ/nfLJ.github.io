@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="CentOS_7配置静态IP, Jonny">
+    <meta name="keywords" content="SpringMVC工作原理, Jonny">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>CentOS_7配置静态IP | Jonny</title>
+    <title>SpringMVC工作原理 | Jonny</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/libs/awesome/css/all.css">
@@ -247,12 +247,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">CentOS_7配置静态IP</h1>
+                    <h1 class="description center-align post-title">SpringMVC工作原理</h1>
                 </div>
             </div>
         </div>
@@ -369,8 +369,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/CentOS/">
-                                <span class="chip bg-color">CentOS</span>
+                            <a href="/tags/SpringMVC/">
+                                <span class="chip bg-color">SpringMVC</span>
                             </a>
                         
                     </div>
@@ -381,8 +381,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Linux/" class="post-category">
-                                Linux
+                            <a href="/categories/Spring/" class="post-category">
+                                Spring
                             </a>
                         
                     </div>
@@ -403,7 +403,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    72
+                    775
                 </div>
                 
 
@@ -420,15 +420,31 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Centos-7-配置静态IP"><a href="#Centos-7-配置静态IP" class="headerlink" title="Centos 7 配置静态IP"></a>Centos 7 配置静态IP</h2><h3 id="1-打开VMware，进入虚拟网络编辑器"><a href="#1-打开VMware，进入虚拟网络编辑器" class="headerlink" title="1.打开VMware，进入虚拟网络编辑器"></a>1.打开VMware，进入虚拟网络编辑器</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png" alt=""></p>
-<h3 id="2-进行如下配置"><a href="#2-进行如下配置" class="headerlink" title="2.进行如下配置"></a>2.进行如下配置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/2.png" alt=""></p>
-<h3 id="3-进入虚拟机设置"><a href="#3-进入虚拟机设置" class="headerlink" title="3.进入虚拟机设置"></a>3.进入虚拟机设置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/3.png" alt=""></p>
-<h3 id="4-进行如下设置"><a href="#4-进行如下设置" class="headerlink" title="4.进行如下设置"></a>4.进行如下设置</h3><p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/4.png" alt=""></p>
-<h3 id="5-进入CentOS7终端"><a href="#5-进入CentOS7终端" class="headerlink" title="5.进入CentOS7终端"></a>5.进入CentOS7终端</h3><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">su</span> root   //以管理员身份
-vim /etc/sysconfig/network-scripts/ifcfg-ens33<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/5.png" alt=""></p>
-<h3 id="6-重新启动网络"><a href="#6-重新启动网络" class="headerlink" title="6.重新启动网络"></a>6.重新启动网络</h3><pre class="line-numbers language-bash"><code class="language-bash">systemctl restart network.service<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png" alt="https://gitee.com/nfLJ/Pic/raw/master//blog/1.png"></p>
+                <h3 id="SpringMVC工作流程"><a href="#SpringMVC工作流程" class="headerlink" title="SpringMVC工作流程"></a>SpringMVC工作流程</h3><p><strong>如下图所示：</strong></p>
+<p><img src="https://gitee.com/nfLJ/Pic/raw/master//blog/Snipaste_2020-06-14_00-06-21.png" alt=""></p>
+<p><strong>流程说明：</strong></p>
+<ol>
+<li>客户端（浏览器）发送请求，直接请求到 DispatcherServlet</li>
+<li>DispatcherServlet 根据请求信息调用 HandlerMapping，解析请求对应的 Handler</li>
+<li>解析到对应的 Handler（就是平时说的Controller 控制器）后，开始由 HandlerAdapter 适配器处理</li>
+<li>HandlerAdapter 会根据 Handler 来调用真正的处理器开处理请求，并处理相应的业务逻辑</li>
+<li>处理器处理完业务后，会返回一个 ModelAndView 对象，Model 是返回的数据对象，View 是个逻辑上的 View</li>
+<li>ViewResolver 会根据逻辑 View 查找实际的 View</li>
+<li>DispaterServlet 把返回的 Model 传给 View（视图渲染）</li>
+<li>把 View 返回给请求者（浏览器）</li>
+</ol>
+<h3 id="SpringMVC组件说明"><a href="#SpringMVC组件说明" class="headerlink" title="SpringMVC组件说明"></a>SpringMVC组件说明</h3><p><strong>1、前端控制器DispatcherServlet（不需要工程师开发）</strong></p>
+<p>作用：Spring MVC 的入口函数。接收请求，响应结果，相当于转发器，中央处理器。有了 DispatcherServlet 减少了其它组件之间的耦合度。用户请求到达前端控制器，它就相当于mvc模式中的c，DispatcherServlet是整个流程控制的中心，由它调用其它组件处理用户的请求，DispatcherServlet的存在降低了组件之间的耦合性。</p>
+<p><strong>2、处理器映射器HandlerMapping(不需要工程师开发)</strong></p>
+<p>作用：根据请求的url查找Handler。HandlerMapping负责根据用户请求找到Handler即处理器（Controller），SpringMVC提供了不同的映射器实现不同的映射方式，例如：配置文件方式，实现接口方式，注解方式等。</p>
+<p><strong>3、处理器适配器HandlerAdapter（不需要工程师开发）</strong></p>
+<p>作用：按照特定规则（HandlerAdapter要求的规则）去执行Handler<br>通过HandlerAdapter对处理器进行执行，这是适配器模式的应用，通过扩展适配器可以对更多类型的处理器进行执行。</p>
+<p><strong>4、处理器Handler(需要工程师开发)</strong></p>
+<p>注意：编写Handler时按照HandlerAdapter的要求去做，这样适配器才可以去正确执行Handler<br>Handler 是继DispatcherServlet前端控制器的后端控制器，在DispatcherServlet的控制下Handler对具体的用户请求进行处理。<br>由于Handler涉及到具体的用户业务请求，所以一般情况需要工程师根据业务需求开发Handler。</p>
+<p><strong>5、视图解析器View resolver(不需要工程师开发)</strong></p>
+<p>作用：进行视图解析，根据逻辑视图名解析成真正的视图（view）<br>View Resolver负责将处理结果生成View视图，View Resolver首先根据逻辑视图名解析成物理视图名即具体的页面地址，再生成View视图对象，最后对View进行渲染将处理结果通过页面展示给用户。 springmvc框架提供了很多的View视图类型，包括：jstlView、freemarkerView、pdfView等。<br>一般情况下需要通过页面标签或页面模版技术将模型数据通过页面展示给用户，需要由工程师根据业务需求开发具体的页面。</p>
+<p><strong>6、视图View(需要工程师开发)</strong></p>
+<p>View是一个接口，实现类支持不同的View类型（jsp、freemarker、pdf…）</p>
 
             </div>
             <hr/>
@@ -454,7 +470,7 @@ vim /etc/sysconfig/network-scripts/ifcfg-ens33<span aria-hidden="true" class="li
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://nflj.github.io/2020/06/13/centos-7-pei-zhi-jing-tai-ip/">http://nflj.github.io/2020/06/13/centos-7-pei-zhi-jing-tai-ip/</a>
+                    <a href="http://nflj.github.io/2020/06/13/springmvc-gong-zuo-yuan-li/">http://nflj.github.io/2020/06/13/springmvc-gong-zuo-yuan-li/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -492,8 +508,8 @@ vim /etc/sysconfig/network-scripts/ifcfg-ens33<span aria-hidden="true" class="li
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/CentOS/">
-                                    <span class="chip bg-color">CentOS</span>
+                                <a href="/tags/SpringMVC/">
+                                    <span class="chip bg-color">SpringMVC</span>
                                 </a>
                             
                         </div>
@@ -921,9 +937,10 @@ vim /etc/sysconfig/network-scripts/ifcfg-ens33<span aria-hidden="true" class="li
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/06/13/springmvc-gong-zuo-yuan-li/">
                     <div class="card-image">
@@ -946,9 +963,9 @@ DispatcherServlet 根据请求信息调用 HandlerMapping，解析请求对应�
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -961,6 +978,7 @@ DispatcherServlet 根据请求信息调用 HandlerMapping，解析请求对应�
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -979,34 +997,36 @@ DispatcherServlet 根据请求信息调用 HandlerMapping，解析请求对应�
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/11/hexo-bo-ke-da-jian/">
+                <a href="/2020/06/13/centos-7-pei-zhi-jing-tai-ip/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/medias/featureimages/17.jpg" class="responsive-img" alt="Hexo博客搭建">
+                        <img src="https://cdn.jsdelivr.net/gh/nfLJ/nfLj.github.io/medias/featureimages/4.jpg" class="responsive-img" alt="CentOS_7配置静态IP">
                         
-                        <span class="card-title">Hexo博客搭建</span>
+                        <span class="card-title">CentOS_7配置静态IP</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo介绍Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
-目录结构
-node_modules是hexo插件安装的地方
-scaffolds放
+                            Centos 7 配置静态IP1.打开VMware，进入虚拟网络编辑器
+2.进行如下配置
+3.进入虚拟机设置
+4.进行如下设置
+5.进入CentOS7终端su root   //以管理员身份
+vim /etc/sysconfig/netwo
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    博客搭建
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
                                 </a>
                             
                             
@@ -1016,8 +1036,8 @@ scaffolds放
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/CentOS/">
+                        <span class="chip bg-color">CentOS</span>
                     </a>
                     
                 </div>
