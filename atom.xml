@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nflj.github.io/"/>
-  <updated>2020-06-14T07:06:40.745Z</updated>
+  <updated>2020-07-06T07:14:19.123Z</updated>
   <id>http://nflj.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式概述</title>
+    <link href="http://nflj.github.io/2020/07/06/she-ji-mo-shi-gai-shu/"/>
+    <id>http://nflj.github.io/2020/07/06/she-ji-mo-shi-gai-shu/</id>
+    <published>2020-07-06T04:45:56.000Z</published>
+    <updated>2020-07-06T07:14:19.123Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;http://c.biancheng.net/design_pattern/&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow
+        
+      
+    
+    </summary>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>HashMap</title>
