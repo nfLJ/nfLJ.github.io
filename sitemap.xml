@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nflj.github.io/2020/07/07/jvm-nei-cun-mo-xing/</loc>
+    
+    <lastmod>2020-07-07T16:16:48.725Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nflj.github.io/2020/07/07/factory-method-pattern/</loc>
+    
+    <lastmod>2020-07-07T14:09:10.155Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nflj.github.io/2020/07/07/prototype-pattern/</loc>
+    
+    <lastmod>2020-07-07T13:48:56.704Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nflj.github.io/2020/07/07/java-ji-he-kuang-jia-arraylist/</loc>
+    
+    <lastmod>2020-07-07T08:33:21.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nflj.github.io/2020/06/14/java-ji-he-kuang-jia-hashmap/</loc>
+    
+    <lastmod>2020-07-07T03:35:00.811Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://nflj.github.io/2020/07/07/signleton-pattern/</loc>
     
     <lastmod>2020-07-06T17:41:40.379Z</lastmod>
@@ -40,13 +75,6 @@
     <loc>http://nflj.github.io/2020/06/11/hexo-bo-ke-da-jian/</loc>
     
     <lastmod>2020-06-14T09:48:58.705Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nflj.github.io/2020/06/14/hashmap/</loc>
-    
-    <lastmod>2020-06-14T07:06:40.745Z</lastmod>
     
   </url>
   

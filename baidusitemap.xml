@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://nflj.github.io/2020/07/07/jvm-nei-cun-mo-xing/</loc>
+    <lastmod>2020-07-07</lastmod>
+  </url>  <url>
+    <loc>http://nflj.github.io/2020/07/07/factory-method-pattern/</loc>
+    <lastmod>2020-07-07</lastmod>
+  </url>  <url>
+    <loc>http://nflj.github.io/2020/07/07/prototype-pattern/</loc>
+    <lastmod>2020-07-07</lastmod>
+  </url>  <url>
+    <loc>http://nflj.github.io/2020/07/07/java-ji-he-kuang-jia-arraylist/</loc>
+    <lastmod>2020-07-07</lastmod>
+  </url>  <url>
+    <loc>http://nflj.github.io/2020/06/14/java-ji-he-kuang-jia-hashmap/</loc>
+    <lastmod>2020-07-07</lastmod>
+  </url>  <url>
     <loc>http://nflj.github.io/2020/07/07/signleton-pattern/</loc>
     <lastmod>2020-07-06</lastmod>
   </url>  <url>
@@ -8,9 +23,6 @@
     <lastmod>2020-07-06</lastmod>
   </url>  <url>
     <loc>http://nflj.github.io/2020/06/11/hexo-bo-ke-da-jian/</loc>
-    <lastmod>2020-06-14</lastmod>
-  </url>  <url>
-    <loc>http://nflj.github.io/2020/06/14/hashmap/</loc>
     <lastmod>2020-06-14</lastmod>
   </url>  <url>
     <loc>http://nflj.github.io/2020/06/13/springmvc-gong-zuo-yuan-li/</loc>

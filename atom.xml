@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nflj.github.io/"/>
-  <updated>2020-07-06T17:41:40.379Z</updated>
+  <updated>2020-07-07T16:16:48.725Z</updated>
   <id>http://nflj.github.io/</id>
   
   <author>
@@ -15,6 +15,122 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JVM内存模型(基于JDK1.8)</title>
+    <link href="http://nflj.github.io/2020/07/07/jvm-nei-cun-mo-xing/"/>
+    <id>http://nflj.github.io/2020/07/07/jvm-nei-cun-mo-xing/</id>
+    <published>2020-07-07T15:10:17.000Z</published>
+    <updated>2020-07-07T16:16:48.725Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、运行时数据区概览&quot;&gt;&lt;a href=&quot;#一、运行时数据区概览&quot; class=&quot;headerlink&quot; title=&quot;一、运行时数据区概览&quot;&gt;&lt;/a&gt;一、运行时数据区概览&lt;/h3&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JVM" scheme="http://nflj.github.io/categories/JVM/"/>
+    
+    
+      <category term="JVM" scheme="http://nflj.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java设计模式---工厂方法模式</title>
+    <link href="http://nflj.github.io/2020/07/07/factory-method-pattern/"/>
+    <id>http://nflj.github.io/2020/07/07/factory-method-pattern/</id>
+    <published>2020-07-07T09:33:01.000Z</published>
+    <updated>2020-07-07T14:09:10.155Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、概述&quot;&gt;&lt;a href=&quot;#一、概述&quot; class=&quot;headerlink&quot; title=&quot;一、概述&quot;&gt;&lt;/a&gt;一、概述&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;工厂方法模式&lt;/code&gt;是简单工厂的进一步深化，
+        
+      
+    
+    </summary>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="创建型模式" scheme="http://nflj.github.io/tags/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java设计模式---原型模式</title>
+    <link href="http://nflj.github.io/2020/07/07/prototype-pattern/"/>
+    <id>http://nflj.github.io/2020/07/07/prototype-pattern/</id>
+    <published>2020-07-07T08:35:58.000Z</published>
+    <updated>2020-07-07T13:48:56.704Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、概述&quot;&gt;&lt;a href=&quot;#一、概述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="http://nflj.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="创建型模式" scheme="http://nflj.github.io/tags/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合框架---ArrayList</title>
+    <link href="http://nflj.github.io/2020/07/07/java-ji-he-kuang-jia-arraylist/"/>
+    <id>http://nflj.github.io/2020/07/07/java-ji-he-kuang-jia-arraylist/</id>
+    <published>2020-07-07T04:02:01.000Z</published>
+    <updated>2020-07-07T08:33:21.787Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;ArrayList 的底层是数组队列，相当于动态数组。与 Java
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://nflj.github.io/categories/Java/"/>
+    
+    
+      <category term="Collection" scheme="http://nflj.github.io/tags/Collection/"/>
+    
+      <category term="ArrayList" scheme="http://nflj.github.io/tags/ArrayList/"/>
+    
+  </entry>
   
   <entry>
     <title>Java设计模式---单例模式</title>
@@ -73,11 +189,11 @@
   </entry>
   
   <entry>
-    <title>HashMap</title>
-    <link href="http://nflj.github.io/2020/06/14/hashmap/"/>
-    <id>http://nflj.github.io/2020/06/14/hashmap/</id>
+    <title>Java集合框架---HashMap</title>
+    <link href="http://nflj.github.io/2020/06/14/java-ji-he-kuang-jia-hashmap/"/>
+    <id>http://nflj.github.io/2020/06/14/java-ji-he-kuang-jia-hashmap/</id>
     <published>2020-06-14T04:16:44.000Z</published>
-    <updated>2020-06-14T07:06:40.745Z</updated>
+    <updated>2020-07-07T03:35:00.811Z</updated>
     
     <summary type="html">
     
