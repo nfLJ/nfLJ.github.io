@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nflj.github.io/"/>
-  <updated>2020-07-07T16:16:48.725Z</updated>
+  <updated>2020-07-31T15:50:49.522Z</updated>
   <id>http://nflj.github.io/</id>
   
   <author>
@@ -15,6 +15,88 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>认证、授权、鉴权和权限控制</title>
+    <link href="http://nflj.github.io/2020/07/31/ren-zheng-shou-quan-jian-quan-he-quan-xian-kong-zhi/"/>
+    <id>http://nflj.github.io/2020/07/31/ren-zheng-shou-quan-jian-quan-he-quan-xian-kong-zhi/</id>
+    <published>2020-07-31T15:43:25.000Z</published>
+    <updated>2020-07-31T15:50:49.522Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文将对信息安全领域中认证、授权、鉴权和权限控制这四个概念给出相应的定义，并对这个概念之间的相互关系进行梳理。本文给出的概念定义将有助于后续文章中对互联网应用开发用户登录功能的更多讨论。&lt;/p&gt;
+&lt;p&gt;注：本文讨论的互联网应用开发，主要是指web应用和移动应用的开发。&lt;/p
+        
+      
+    
+    </summary>
+    
+    
+      <category term="network" scheme="http://nflj.github.io/categories/network/"/>
+    
+    
+      <category term="network" scheme="http://nflj.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OAuth 2.0 的四种方式</title>
+    <link href="http://nflj.github.io/2020/07/31/oauth2-0-de-si-chong-fang-shi/"/>
+    <id>http://nflj.github.io/2020/07/31/oauth2-0-de-si-chong-fang-shi/</id>
+    <published>2020-07-31T15:42:04.000Z</published>
+    <updated>2020-07-31T15:51:02.214Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;RFC-6749&quot;&gt;&lt;a href=&quot;#RFC-6749&quot; class=&quot;headerlink&quot; title=&quot;RFC 6749&quot;&gt;&lt;/a&gt;RFC 6749&lt;/h3&gt;&lt;p&gt;OAuth 2.0 的标准是 &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="network" scheme="http://nflj.github.io/categories/network/"/>
+    
+    
+      <category term="network" scheme="http://nflj.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis从入门到放弃</title>
+    <link href="http://nflj.github.io/2020/07/31/redis-cong-ru-men-dao-fang-qi/"/>
+    <id>http://nflj.github.io/2020/07/31/redis-cong-ru-men-dao-fang-qi/</id>
+    <published>2020-07-31T15:39:42.000Z</published>
+    <updated>2020-07-31T15:51:32.205Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-Redis-介绍&quot;&gt;&lt;a href=&quot;#1-Redis-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. Redis 介绍&quot;&gt;&lt;/a&gt;1. Redis 介绍&lt;/h1&gt;&lt;h2 id=&quot;1-1-NoSQL-基本概念&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Redis" scheme="http://nflj.github.io/categories/Redis/"/>
+    
+    
+      <category term="Redis" scheme="http://nflj.github.io/tags/Redis/"/>
+    
+  </entry>
   
   <entry>
     <title>JVM内存模型(基于JDK1.8)</title>
