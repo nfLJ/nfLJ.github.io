@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nflj.github.io/"/>
-  <updated>2020-08-11T01:43:23.781Z</updated>
+  <updated>2020-08-11T07:16:28.390Z</updated>
   <id>http://nflj.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MyBatis简介</title>
+    <link href="http://nflj.github.io/posts/4ca.html"/>
+    <id>http://nflj.github.io/posts/4ca.html</id>
+    <published>2020-08-11T07:08:59.000Z</published>
+    <updated>2020-08-11T07:16:28.390Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、ORM简介&quot;&gt;&lt;a href=&quot;#一、ORM简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="MyBatis" scheme="http://nflj.github.io/categories/MyBatis/"/>
+    
+    
+      <category term="MyBatis" scheme="http://nflj.github.io/tags/MyBatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring面试常见问题</title>
+    <link href="http://nflj.github.io/posts/1212.html"/>
+    <id>http://nflj.github.io/posts/1212.html</id>
+    <published>2020-08-11T06:34:55.000Z</published>
+    <updated>2020-08-11T07:05:23.816Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-什么是-Spring-框架&quot;&gt;&lt;a href=&quot;#1-什么是-Spring-框架&quot; class=&quot;headerlink&quot; title=&quot;1.什么是 Spring 框架?&quot;&gt;&lt;/a&gt;1.什么是 Spring
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Spring全家桶" scheme="http://nflj.github.io/categories/Spring%E5%85%A8%E5%AE%B6%E6%A1%B6/"/>
+    
+    
+      <category term="Spring" scheme="http://nflj.github.io/tags/Spring/"/>
+    
+  </entry>
   
   <entry>
     <title>认证、授权、鉴权和权限控制</title>
@@ -305,7 +359,7 @@
     <link href="http://nflj.github.io/posts/3478.html"/>
     <id>http://nflj.github.io/posts/3478.html</id>
     <published>2020-06-13T15:04:40.000Z</published>
-    <updated>2020-08-11T01:43:23.787Z</updated>
+    <updated>2020-08-11T07:18:05.530Z</updated>
     
     <summary type="html">
     
@@ -320,7 +374,7 @@
     </summary>
     
     
-      <category term="Spring" scheme="http://nflj.github.io/categories/Spring/"/>
+      <category term="Spring全家桶" scheme="http://nflj.github.io/categories/Spring%E5%85%A8%E5%AE%B6%E6%A1%B6/"/>
     
     
       <category term="SpringMVC" scheme="http://nflj.github.io/tags/SpringMVC/"/>
