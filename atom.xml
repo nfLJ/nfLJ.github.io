@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nflj.github.io/"/>
-  <updated>2020-08-11T07:16:28.390Z</updated>
+  <updated>2020-08-13T02:25:23.087Z</updated>
   <id>http://nflj.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java注解(Annotation)</title>
+    <link href="http://nflj.github.io/posts/562c.html"/>
+    <id>http://nflj.github.io/posts/562c.html</id>
+    <published>2020-08-13T02:21:04.000Z</published>
+    <updated>2020-08-13T02:25:23.087Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h3&gt;&lt;p&gt;Java 注解（Annotation）又称 Java 标注，是 JDK5.0 引入的一种注释机制。&lt;br&gt;Java
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://nflj.github.io/categories/Java/"/>
+    
+    
+      <category term="Annotation" scheme="http://nflj.github.io/tags/Annotation/"/>
+    
+  </entry>
   
   <entry>
     <title>MyBatis简介</title>
