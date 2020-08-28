@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://nflj.github.io/posts/3b90.html</loc>
+    <lastmod>2020-08-24</lastmod>
+  </url>  <url>
     <loc>http://nflj.github.io/posts/562c.html</loc>
     <lastmod>2020-08-13</lastmod>
   </url>  <url>
@@ -44,9 +47,6 @@
     <lastmod>2020-08-11</lastmod>
   </url>  <url>
     <loc>http://nflj.github.io/posts/80f9.html</loc>
-    <lastmod>2020-08-11</lastmod>
-  </url>  <url>
-    <loc>http://nflj.github.io/posts/3b90.html</loc>
     <lastmod>2020-08-11</lastmod>
   </url>
 </urlset>
